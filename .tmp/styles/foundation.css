@@ -6482,3 +6482,8 @@ a.th {
 h1 {
   text-align: center;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000341}}
+.media {
+  margin-top: 6.25em;
+}
