@@ -1,11 +1,14 @@
 html {
-	background: red;
+	background: #060e3a;
 }
-
-#albumCover {
+.pageBG {
 	width: 100%;
 	height:100%;
 	position: fixed;
+}
+
+#albumCover {
+	z-index: -5;
  	background: url(../img/albumBG.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -16,34 +19,50 @@ html {
   	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='albumBG.jpg', sizingMethod='scale')";
 }
 #hungrySnakeLeft {
-	width: 100%;
-	height:100%;
-	position: fixed;
+	z-index: -4;
 	background: url('../img/snakefaceleft.png') top left no-repeat;
 }
+#hungrySnakeLeft.fadeInLeft, #hungrySnakeRight.fadeInRight {
+	animation-delay:2s;
+	-webkit-animation-delay:2s;
+}
 #hungrySnakeRight {
-	width: 100%;
-	height:100%;
-	position: fixed;
+	z-index: -4;
 	background: url('../img/snakefaceright.png') top right no-repeat;
 }
 #albumLogo {
-	width: 100%;
-	height:100%;
-	position: fixed;
+	z-index: -3;
 	background: url('../img/dpss.png') center center no-repeat;
+
+	-webkit-transition: background 300ms ease-in 200ms; /* property duration timing-function delay */
+    -moz-transition: background 300ms ease-in 200ms;
+    -o-transition: background 300ms ease-in 200ms;
+    transition: background 300ms ease-in 200ms;
 }
 #silverware {
-	width: 100%;
-	height:100%;
-	position: fixed;
+	z-index: -2;
 	background: url('../img/silverware.png') center bottom no-repeat;
+}
+#silverware.fadeInUp {
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
 }
 h1 {
 	text-align: center;
 }
-.media {
-	margin-top: emCalc(100px);
+#media {
+	margin-top: emCalc(300px);
+}
+#media.fadeIn {
+	animation-delay:5s;
+	-webkit-animation-delay:1.5s;
+}
+#social {
+	margin-top: emCalc(35px);
+}
+div.social > div.flipInY {
+	animation-delay:3s;
+	-webkit-animation-delay:3s;
 }
 #twitter, #email, #vimeo, #soundcloud {
 	width: emCalc(100px);
@@ -51,7 +70,7 @@ h1 {
 	display: block;
 }
 #twitter {
-	background: url('../img/twitter.png') center center no-repeat;
+	background: url('../img/twitter2.png') center center no-repeat;
 }
 #email {
 	background: url('../img/email.png') center center no-repeat;
@@ -62,3 +81,12 @@ h1 {
 #soundcloud {
 	background: url('../img/soundcloud.png') center center no-repeat;
 }
+
+
+
+//Foundation overrides
+.row {
+	max-width: 85%;
+}
+
+

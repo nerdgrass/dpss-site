@@ -7,56 +7,53 @@
     <title>Dead Pop Stars Society | </title>
 
     <link rel="stylesheet" href="styles/foundation.css" />
-    <script data-main="scripts/main" src="scripts/libs/require.js"></script>
 
   </head>
   <body>
-    <div id="albumCover">
-      <div id="hungrySnakeLeft">
-        <div id="hungrySnakeRight">
-          <div id="albumLogo">
-            <div id="silverware">
-              <div class="row media">
-                <div class="small-5 columns">
-                  <h1>LISTEN</h1>
-                  <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=1740935352/size=medium/bgcol=333333/linkcol=e32c14/artwork=false/transparent=true/" seamless>
-                    <a href="http://automaticreaction.bandcamp.com/album/dead-pop-stars-society">Dead Pop Stars Society by Dead Pop Stars Society</a>
-                  </iframe>
-                </div>
-                <div class="small-5 offset-2 columns">
-                  <h1>WATCH</h1>
-                  <iframe src="http://player.vimeo.com/video/70583332" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/70583332">Dead Pop Stars Society Promo Video July 2013</a> from <a href="http://vimeo.com/user5891456">Jack Ginsberg</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-                </div>
+    <div id="albumCover" class="pageBG animated fadeIn">
+      <div id="hungrySnakeLeft" class="pageBG animated fadeInLeft"></div>
+      <div id="hungrySnakeRight" class="pageBG animated fadeInRight"></div>
+      <div id="albumLogo" class="pageBG animated fadeInDownBig"></div>
+      <div id="silverware" class="pageBG animated fadeInUp"></div>
+      <div id="media" class="row animated fadeIn">
+        <div class="small-4 columns">
+          <h1>LISTEN</h1>
+          <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=1740935352/size=medium/bgcol=333333/linkcol=e32c14/artwork=false/transparent=true/" seamless>
+            <a href="http://automaticreaction.bandcamp.com/album/dead-pop-stars-society">Dead Pop Stars Society by Dead Pop Stars Society</a>
+          </iframe>
+        </div>
+        <div class="small-4 columns"></div>
+        <div class="small-4 columns">
+          <h1>WATCH</h1>
+          <iframe src="http://player.vimeo.com/video/70583332" width="100%" height="200" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+      </div>
+      <div id="social" class="row">
+        <div class="small-4 small-centered large-centered columns">
+          <div class="row">
+            <div class="small-3 columns social">
+              <div class="animated flipInY">
+                <a id="twitter" href="#"></a>
               </div>
-              <div class="row">
-                <div class="small-6 small-centered large-centered columns">
-                  <div class="row">
-                    <div class="small-3 columns social">
-                      <div>
-                        <a id="twitter" href="#"></a>
-                      </div>
-                    </div>
-                    <div class="small-3 columns social">
-                      <div>
-                        <a id="email" href="#"></a>
-                      </div>
-                    </div>
-                    <div class="small-3 columns social">
-                      <div>
-                        <a id="vimeo" href="#"></a>
-                      </div>
-                    </div>
-                    <div class="small-3 columns social">
-                      <div>
-                        <a id="soundcloud" href="#"></a>
-                      </div>
-                    </div>
-                  </div>
+            </div>
+            <div class="small-3 columns social">
+              <div class="animated flipInY">
+                <a id="email" href="#"></a>
+              </div>
+            </div>
+            <div class="small-3 columns social">
+              <div class="animated flipInY">
+                <a id="vimeo" href="#"></a>
+              </div>
+            </div>
+            <div class="small-3 columns social">
+              <div class="animated flipInY">
+                <a id="soundcloud" href="#"></a>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
+    <script data-main="scripts/main" src="scripts/libs/require.js"></script>
   </body>
 </html>
