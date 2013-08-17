@@ -24,8 +24,8 @@ html {
 	background: #060e3a url('../img/snakefaceleft.png') top left no-repeat;
 }
 #hungrySnakeLeft.fadeInLeft, #hungrySnakeRight.fadeInRight {
-	animation-delay:2s;
-	-webkit-animation-delay:2s;
+	// animation-delay:.5s;
+	// -webkit-animation-delay:.5s;
 }
 #hungrySnakeRight {
 	z-index: -4;
@@ -53,13 +53,16 @@ h1 {
 	padding-top:1em;
 	background:#303030;
 }
+#vimeo {
+	background:#303030;
+}
 #social {
 	margin-top: 50%;
 	margin-top: 80vh;
 }
 div.social > div.flipInY {
-	animation-delay:3s;
-	-webkit-animation-delay:3s;
+	animation-delay:2.5s;
+	-webkit-animation-delay:2.5s;
 }
 a#twitter, a#email, a#question, a#vimeo, a#soundcloud {
 	width: emCalc(100px);
@@ -68,21 +71,15 @@ a#twitter, a#email, a#question, a#vimeo, a#soundcloud {
 }
 a#twitter {
 	background: url('../img/twitter2.png') center center no-repeat;
-}
-a#email {
+}a#email {
 	background: url('../img/email.png') center center no-repeat;
-}
-a#question {
+}a#question {
 	background: url('../img/question.png') center center no-repeat;
-}
-a#vimeo {
+}a#vimeo {
 	background: url('../img/vimeo.png') center center no-repeat;
-}
-a#soundcloud {
+}a#soundcloud {
 	background: url('../img/soundcloud.png') center center no-repeat;
 }
-
-
 
 //Foundation overrides
 .row {

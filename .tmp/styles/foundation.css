@@ -1984,12 +1984,6 @@ html {
   background: #060e3a url("../img/snakefaceleft.png") top left no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000326}}
-#hungrySnakeLeft.fadeInLeft, #hungrySnakeRight.fadeInRight {
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000330}}
 #hungrySnakeRight {
   z-index: -4;
@@ -2031,35 +2025,40 @@ h1 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000356}}
+#vimeo {
+  background: #303030;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000359}}
 #social {
   margin-top: 50%;
   margin-top: 80vh;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000363}}
 div.social > div.flipInY {
-  animation-delay: 3s;
-  -webkit-animation-delay: 3s;
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000367}}
 a#twitter, a#email, a#question, a#vimeo, a#soundcloud {
   width: 6.25em;
   height: 6.25em;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000372}}
 a#twitter {
   background: url("../img/twitter2.png") center center no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000374}}
 a#email {
   background: url("../img/email.png") center center no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000376}}
 a#question {
   background: url("../img/question.png") center center no-repeat;
 }
@@ -2069,12 +2068,12 @@ a#vimeo {
   background: url("../img/vimeo.png") center center no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000380}}
 a#soundcloud {
   background: url("../img/soundcloud.png") center center no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alex\/Documents\/Dropbox\/Work\/gitStuff\/dpss-site\/app\/styles\/_dpss\.scss}line{font-family:\0000385}}
 .row {
   max-width: 85%;
 }
